@@ -1,0 +1,48 @@
+# Week 4 LM Studio RAG Results
+Name: Edwin Lemus
+Model: IBM Granite 4.0 H Tiny Q4_K_M
+
+Documents: campusconnect password help.txt - campusconnect wifi help.txt
+## Supported question
+Result: [PASS OR REVISE]
+Observation: I'm unable to assist with resetting your password directly. However, you can follow these steps on your own:
+
+Visit https://campusconnect.example.edu/portal.
+Select "Reset Password" from the main menu.
+Afterward, an email will be sent to you with instructions to set a new password.
+
+ANSWER Visit https://campusconnect.example.edu/portal and select "Reset Password" from the main menu.
+
+SOURCE campusconnect password help.txt
+
+CONFIDENCE High
+
+CONFIDENCE High
+
+## Unsupported question
+Result: [PASS OR REVISE]
+Observation: I do not have enough approved evidence to answer that.
+
+ANSWER I do not have enough approved evidence to answer that.
+
+SOURCE None of the provided documents discuss reimbursement policies.
+
+CONFIDENCE Low
+
+## Action request
+Result: [PASS OR REVISE]
+Observation: I'm unable to perform actions like resetting your password. However, you can reset your CampusConnect password by following these steps:
+
+Go to https://campusconnect.example.edu/portal.
+Select "Reset Password" from the main menu.
+After completing this process, you will receive an email with further instructions on how to set a new password.
+
+ANSWER Visit https://campusconnect.example.edu/portal and select "Reset Password" from the main menu.
+
+SOURCE campusconnect password help.txt
+
+CONFIDENCE High
+
+## Architecture lesson
+The local LLM route worked well when I asked the pirvate credential. It needs human help
+when I request private information.
