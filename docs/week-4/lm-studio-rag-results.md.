@@ -44,5 +44,5 @@ SOURCE campusconnect password help.txt
 CONFIDENCE High
 
 ## Architecture lesson
-The local LLM route worked well when I asked the pirvate credential. It needs human help
+The local LLM route worked well when I asked the time or regular information. It needs human help
 when I request private information.
