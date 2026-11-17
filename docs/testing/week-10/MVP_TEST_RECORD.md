@@ -35,10 +35,10 @@ Smallest repair made:  shows small repairs results
 Focused retest result: 60
 ## 4. Release gate
 Release decision: No
-Decision reason: <FILL IN>
-GitHub Actions run: <PASTE RUN URL>
+Decision reason: retest
+GitHub Actions run: error test due not .py file
 Release tag if GO: v0.9.0-rc1
 ## 5. Engineering and AI Use Log
 What I tested myself: web app
-What remained human-reviewed rather than automated: <FILL IN>
-Known limitation carried into Week 11 Red Teaming: <FILL IN>
+What remained human-reviewed rather than automated: Yes
+Known limitation carried into Week 11 Red Teaming: Not yet
