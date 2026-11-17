@@ -2,8 +2,8 @@
 Student: Edwin Lemus
 Date: Nov-16-2026
 Branch: release/week-10-rc1
-Local URL: http://127.0.0.1:7860 - https://campus-chorus-help-hub.lovable.app/
-Environment: Chrome
+Application URL: https://campus-chorus-help-hub.lovable.app/
+Environment: Chrome; deployed Lovable TypeScript/Bun application
 ## 1. Six-test MVP record
 | # | Quality area | Action and expected result | Observed evidence | Result |
 |---|---|---|---|---|
@@ -29,10 +29,10 @@ Accessibility score: 96
 One important Lighthouse finding or "none listed": Shows good performance
 Keyboard plus muted-video result: Accesible - Pass
 ## 3. Defect decision and retest
-Highest-severity finding: Not issues
-Severity: None
-Smallest repair made:  shows small repairs results 
-Focused retest result: 60
+Highest-severity finding: Not yet established from complete test evidence.
+Severity: Pending confirmation.
+Smallest repair made: No specific repair has been documented.
+Focused retest result: The previous value "60" is unexplained and needs clarification before being used as evidence.
 4. Release gate
 Release decision: NO-GO
 Decision reason: The TypeScript/Bun application build passed in GitHub Actions, but the release-evidence validation failed. The test record requires additional verification and clearer observations before the release can be approved.
