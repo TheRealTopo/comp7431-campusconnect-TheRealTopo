@@ -34,6 +34,10 @@ Severity: None
 Smallest repair made:  shows small repairs results 
 Focused retest result: 60
 ## 4. Release gate
+Release decision: NO-GO
+Decision reason: The TypeScript/Bun application build passed in GitHub Actions, but the release-evidence gate failed. The test record still requires clearer observed evidence and confirmation of the release criteria before RC1 can be approved.
+GitHub Actions run: [[Paste the actual URL of Week 10 Release Check #5](https://github.com/TheRealTopo/comp7431-campusconnect-TheRealTopo/edit/release/week-10-rc1/docs/testing/week-10/MVP_TEST_RECORD.md)]
+Release tag if GO: v0.9.0-rc1 (not created because the current decision is NO-GO)
 Release decision: No
 Decision reason: retest
 GitHub Actions run: error test due not .py file
