@@ -35,8 +35,11 @@ Smallest repair made: No specific repair has been documented.
 Focused retest result: The previous value "60" is unexplained and needs clarification before being used as evidence.
 ## 4. Release gate
 **Release decision:** NO-GO
+
 **CI interpretation:** The CampusConnect TypeScript/Bun application passed dependency installation and production build. The release-evidence validation did not pass because the candidate is currently marked NO-GO. The manual test evidence must be completed and verified before release approval.
+
 **Next action:** Complete the outstanding test observations and reassess release readiness. No release tag has been created.
+
 ## 5. Engineering and AI Use Log
 What I tested myself: I tested the CampusConnect web application in Chrome and recorded the results in the six-test MVP record. The GitHub Actions workflow separately verified dependency installation and the TypeScript/Bun production build.
 What remained human-reviewed rather than automated: Evaluating answer correctness, checking source citations, assessing unsupported-query responses, verifying voice and text fallback, and reviewing video accessibility required human judgment. Any checks not actually completed remain unverified.
