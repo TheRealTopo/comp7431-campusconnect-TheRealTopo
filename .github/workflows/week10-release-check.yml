@@ -42,4 +42,4 @@ jobs:
             exit 1
           fi
 
-          grep -q '^Release decision: GO$' docs/testing/week-10/MVP_TEST_RECORD.md
+          grep -q '^Release decision: GO$' docs/testing/week-10/MVP_TEST_RECORD.md 
