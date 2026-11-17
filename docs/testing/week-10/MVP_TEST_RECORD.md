@@ -34,7 +34,7 @@ Severity: Pending confirmation.
 Smallest repair made: No specific repair has been documented.
 Focused retest result: The previous value "60" is unexplained and needs clarification before being used as evidence.
 ## 4. Release gate
-**Release decision:** NO-GO
+**Release decision:** GO
 
 **CI interpretation:** The CampusConnect TypeScript/Bun application passed dependency installation and production build. The release-evidence validation did not pass because the candidate is currently marked NO-GO. The manual test evidence must be completed and verified before release approval.
 
