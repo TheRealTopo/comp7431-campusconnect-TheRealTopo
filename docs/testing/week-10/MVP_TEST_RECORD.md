@@ -8,22 +8,21 @@ Environment: Chrome
 | # | Quality area | Action and expected result | Observed evidence | Result |
 |---|---|---|---|---|
 | 1 | Supported retrieval | Ask: "How do I reset my CampusConnect password?" The answer uses
-the approved password-reset passage. | <FILL IN> | <FILL IN - PASS or FAIL> |
+the approved password-reset passage. | Pass | 
 | 2 | Citation support | Open the displayed source from Test 1. At least one important answer
-claim is directly supported by the source passage. | <FILL IN> | <FILL IN - PASS or FAIL> |
+claim is directly supported by the source passage. | The agent support the password.|
 | 3 | Unsupported query | Ask: "What are the Thanksgiving dining hall hours?" The system
 states its IT-support limit and does not invent hours, a source, phone number, or office. |
-<FILL IN> | <FILL IN - PASS or FAIL> |
+Pass| Pass |
 
 | 4 | Voice and text fallback | Use the supported answer. If voice works, its meaning matches
 the visible grounded answer. If voice is unavailable, the text, source, and a clear Continue
-in text or retry path remain. | <FILL IN> | <FILL IN - PASS or FAIL> |
+in text or retry path remain. | Pass | Pass |
 | 5 | Video accessibility | Mute the tab and skip the video. AI disclosure and transcript
-remain visible, and the chatbot is reachable by keyboard. | <FILL IN> | <FILL IN - PASS or
-FAIL> |
+remain visible, and the chatbot is reachable by keyboard. | Video show the caption | Pass |
 | 6 | Latency and recovery | Time one supported question. Class target: grounded text in 5
 seconds or less. If slower, the question is preserved and progress, retry, or text fallback is
-clear. | <FILL IN - seconds plus behavior> | <FILL IN - PASS or FAIL> |
+clear. | Pass | Pass |
 ## 2. Lighthouse and manual accessibility evidence
 Performance score: <FILL IN>
 Accessibility score: <FILL IN>
