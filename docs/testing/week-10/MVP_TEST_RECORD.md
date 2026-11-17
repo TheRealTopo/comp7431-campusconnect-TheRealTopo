@@ -33,12 +33,13 @@ Highest-severity finding: Not yet established from complete test evidence.
 Severity: Pending confirmation.
 Smallest repair made: No specific repair has been documented.
 Focused retest result: The previous value "60" is unexplained and needs clarification before being used as evidence.
-4. Release gate
+## 4. Release gate
 Release decision: NO-GO
-Decision reason: The TypeScript/Bun application build passed in GitHub Actions, but the release-evidence validation failed. The test record requires additional verification and clearer observations before the release can be approved.
-GitHub Actions run: PENDING ACTUAL RUN URL
-Release tag if GO: v0.9.0-rc1 — Not created because the current release decision is NO-GO.
+Decision reason: The CampusConnect TypeScript/Bun application successfully completed dependency installation and the production build in GitHub Actions. However, the Week 10 release-evidence validation rejected the candidate because the test record declares NO-GO. Additional verification of the manual test evidence is needed before approving the release.
+GitHub Actions run: https://github.com/TheRealTopo/comp7431-campusconnect-TheRealTopo/actions/runs/313792602483
+Release tag if GO: v0.9.0-rc1 — Not created.
+Next action: Complete the remaining manual evidence, confirm the release criteria, and reassess the GO/NO-GO decision.
 ## 5. Engineering and AI Use Log
-What I tested myself: web app
-What remained human-reviewed rather than automated: Yes
-Known limitation carried into Week 11 Red Teaming: Not yet
+What I tested myself: I tested the CampusConnect web application in Chrome and recorded the results in the six-test MVP record. The GitHub Actions workflow separately verified dependency installation and the TypeScript/Bun production build.
+What remained human-reviewed rather than automated: Evaluating answer correctness, checking source citations, assessing unsupported-query responses, verifying voice and text fallback, and reviewing video accessibility required human judgment. Any checks not actually completed remain unverified.
+Known limitation carried into Week 11 Red Teaming: The release evidence requires further verification before the candidate can receive a GO decision. The current CI gate verifies the production build but does not automate AI answer correctness, citation accuracy, voice behavior, or accessibility.
