@@ -24,21 +24,21 @@ remain visible, and the chatbot is reachable by keyboard. | Video show the capti
 seconds or less. If slower, the question is preserved and progress, retry, or text fallback is
 clear. | Pass | Pass |
 ## 2. Lighthouse and manual accessibility evidence
-Performance score: <FILL IN>
-Accessibility score: <FILL IN>
-One important Lighthouse finding or "none listed": <FILL IN>
-Keyboard plus muted-video result: <FILL IN>
+Performance score: 94
+Accessibility score: 96
+One important Lighthouse finding or "none listed": Shows good performance
+Keyboard plus muted-video result: Accesible - Pass
 ## 3. Defect decision and retest
-Highest-severity finding: <FILL IN OR NONE>
-Severity: <FILL IN - BLOCKER, SEVERE, MAJOR, MINOR, or NONE>
-Smallest repair made: <FILL IN OR "No repair required">
-Focused retest result: <FILL IN>
+Highest-severity finding: Not issues
+Severity: None
+Smallest repair made:  shows small repairs results 
+Focused retest result: 60
 ## 4. Release gate
-Release decision: <FILL IN - GO or NO-GO>
+Release decision: No
 Decision reason: <FILL IN>
 GitHub Actions run: <PASTE RUN URL>
 Release tag if GO: v0.9.0-rc1
 ## 5. Engineering and AI Use Log
-What I tested myself: <FILL IN>
+What I tested myself: web app
 What remained human-reviewed rather than automated: <FILL IN>
 Known limitation carried into Week 11 Red Teaming: <FILL IN>
